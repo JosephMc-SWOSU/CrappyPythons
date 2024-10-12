@@ -8,7 +8,7 @@ def get_user_distance():
 def covert_feet_to_steps(feet):
     return feet / 2.5
 
-def print_results(steps):
+def eval_progress_towards_goal_and_give_feedback(steps):
     if steps >= 2000:
         print("You have walked", steps, "steps. You have reached your goal! Great job!")
     else:
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     # print("You have entered", feet, "feet.")
     steps = covert_feet_to_steps(feet)
     # print("after the steps print")
-    print_results(steps)
+    eval_progress_towards_goal_and_give_feedback(steps)
 
     print_farewell()    
 
