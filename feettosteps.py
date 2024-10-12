@@ -26,5 +26,5 @@ if __name__ == "__main__":
     # print("after the steps print")
     eval_progress_towards_goal_and_give_feedback(steps)
 
-    print_farewell()    
+    print_farewell()
 
