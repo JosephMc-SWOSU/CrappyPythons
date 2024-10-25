@@ -1,5 +1,5 @@
 def getusername():
-    inputname = input("Enter your name: ")
+    inputname = input("Please enter your name to format it: ")
     return inputname
 
 def separate_name(name):
