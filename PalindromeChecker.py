@@ -8,6 +8,6 @@ if __name__ == "__main__":
 
     userword = getuserword()
     if ispalindrome(userword):
-        print("The word you entered is a Palindrome.")
+        print(f"{userword} is a Palindrome.")
     else:
-        print("The word you entered is not a Palindrome.")
+        print(f"{userword} is not a Palindrome.")
