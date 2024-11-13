@@ -40,4 +40,4 @@ if __name__ == "__main__":
     gv_coin = GVCoin(random.randint(1, 100))
     num_tails = int(input("Enter the number of tails you want: "))
     total = flip_for_tails(gv_coin, num_tails)
-    print(f'Total number of flips for {num_tails} tails: { total }');
+    print(f'Total number of flips for {num_tails} tails: { total }')
