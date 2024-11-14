@@ -1,3 +1,7 @@
+def getusername():
+    inputname = input("Please enter your name to format it: ")
+    return inputname
+
 def separate_name(name):
     name_parts = name.split()
     if len(name_parts) >= 2:
