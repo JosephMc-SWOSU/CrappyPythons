@@ -11,14 +11,23 @@ def calculate_total_price(base_price, additional_services, selected_services):
 
     return selected_services_output, total_price
 
+def print_available_services(additional_services):
+    print("Available services:")
+    for service, price in additional_services.items():
+        print(f"{service} - ${price}")
+    print("Enter '-' if you do not want any service.")
+
 def primaryfunction():
     base_price = 10
     additional_services = {
-        'Tire shine': 2,
         'Wax': 3,
-        'Rain repellent': 2,
-        'Interior vacuum': 5
+        'Tire Shine': 2,
+        'Premium Shampoo': 5,
+        'Premium Conditioner': 4
     }
+
+    # Print available services
+    print_available_services(additional_services)
 
     # Input the selected services
     selected_services = []
@@ -34,6 +43,7 @@ def primaryfunction():
     print(f"Base car wash - ${base_price}")
     for service_output in selected_services_output:
         print(service_output)
+    print("Free services: Vacuum, Water spot-free rinse")
     print("-----")
     print(f"Total price: ${total_price}")
 

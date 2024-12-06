@@ -11,9 +11,9 @@ def primaryfunction():
 
     # Check if the list is in descending order
     if in_order(int_list):
-        print("In descending order")
+        print("This list is in descending order")
     else:
-        print("Not in order")
+        print("This list is not in order")
 
 if __name__ == "__main__":
     primaryfunction()

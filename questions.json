@@ -1,0 +1,252 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "options": ["Seoul", "Tokyo", "Beijing", "Bangkok"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Brazil?",
+        "options": ["Rio de Janeiro", "Brasília", "São Paulo", "Salvador"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Germany?",
+        "options": ["Berlin", "Munich", "Frankfurt", "Hamburg"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Italy?",
+        "options": ["Venice", "Milan", "Rome", "Naples"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Russia?",
+        "options": ["Saint Petersburg", "Moscow", "Kazan", "Novosibirsk"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of India?",
+        "options": ["Mumbai", "New Delhi", "Bangalore", "Kolkata"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of South Africa?",
+        "options": ["Johannesburg", "Cape Town", "Pretoria", "Durban"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of China?",
+        "options": ["Shanghai", "Beijing", "Guangzhou", "Shenzhen"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of the United States?",
+        "options": ["New York", "Los Angeles", "Washington, D.C.", "Chicago"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of the United Kingdom?",
+        "options": ["London", "Manchester", "Birmingham", "Liverpool"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Mexico?",
+        "options": ["Guadalajara", "Monterrey", "Mexico City", "Cancun"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Argentina?",
+        "options": ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Egypt?",
+        "options": ["Cairo", "Alexandria", "Giza", "Luxor"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Turkey?",
+        "options": ["Istanbul", "Ankara", "Izmir", "Antalya"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Saudi Arabia?",
+        "options": ["Jeddah", "Mecca", "Riyadh", "Medina"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of South Korea?",
+        "options": ["Seoul", "Busan", "Incheon", "Daegu"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Nigeria?",
+        "options": ["Lagos", "Abuja", "Kano", "Ibadan"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Kenya?",
+        "options": ["Nairobi", "Mombasa", "Kisumu", "Nakuru"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Ghana?",
+        "options": ["Kumasi", "Accra", "Tamale", "Takoradi"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Ethiopia?",
+        "options": ["Addis Ababa", "Dire Dawa", "Mekelle", "Gondar"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Thailand?",
+        "options": ["Bangkok", "Chiang Mai", "Phuket", "Pattaya"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Vietnam?",
+        "options": ["Hanoi", "Ho Chi Minh City", "Da Nang", "Hue"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Malaysia?",
+        "options": ["Kuala Lumpur", "George Town", "Johor Bahru", "Kota Kinabalu"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Indonesia?",
+        "options": ["Jakarta", "Surabaya", "Bandung", "Medan"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of the Philippines?",
+        "options": ["Manila", "Cebu", "Davao", "Quezon City"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Pakistan?",
+        "options": ["Karachi", "Lahore", "Islamabad", "Peshawar"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Afghanistan?",
+        "options": ["Kabul", "Kandahar", "Herat", "Mazar-i-Sharif"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Iraq?",
+        "options": ["Baghdad", "Basra", "Mosul", "Erbil"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Iran?",
+        "options": ["Tehran", "Mashhad", "Isfahan", "Shiraz"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Syria?",
+        "options": ["Damascus", "Aleppo", "Homs", "Latakia"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Lebanon?",
+        "options": ["Beirut", "Tripoli", "Sidon", "Byblos"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Jordan?",
+        "options": ["Amman", "Zarqa", "Irbid", "Aqaba"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Israel?",
+        "options": ["Tel Aviv", "Jerusalem", "Haifa", "Eilat"],
+        "answer": 2
+    },
+    {
+        "question": "What is the capital of Greece?",
+        "options": ["Athens", "Thessaloniki", "Patras", "Heraklion"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Portugal?",
+        "options": ["Lisbon", "Porto", "Braga", "Coimbra"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Spain?",
+        "options": ["Madrid", "Barcelona", "Valencia", "Seville"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Poland?",
+        "options": ["Warsaw", "Krakow", "Gdansk", "Wroclaw"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Hungary?",
+        "options": ["Budapest", "Debrecen", "Szeged", "Miskolc"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of the Czech Republic?",
+        "options": ["Prague", "Brno", "Ostrava", "Plzen"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Austria?",
+        "options": ["Vienna", "Salzburg", "Innsbruck", "Graz"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Switzerland?",
+        "options": ["Zurich", "Geneva", "Bern", "Basel"],
+        "answer": 3
+    },
+    {
+        "question": "What is the capital of Belgium?",
+        "options": ["Brussels", "Antwerp", "Ghent", "Bruges"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of the Netherlands?",
+        "options": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Denmark?",
+        "options": ["Copenhagen", "Aarhus", "Odense", "Aalborg"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Sweden?",
+        "options": ["Stockholm", "Gothenburg", "Malmo", "Uppsala"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Norway?",
+        "options": ["Oslo", "Bergen", "Trondheim", "Stavanger"],
+        "answer": 1
+    },
+    {
+        "question": "What is the capital of Finland?",
+        "options": ["Helsinki", "Espoo", "Tampere", "Vantaa"],
+        "answer": 1
+    }
+]
