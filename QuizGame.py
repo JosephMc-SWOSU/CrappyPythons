@@ -2,6 +2,7 @@ import json
 import random
 
 def load_questions(filename):
+    """Load questions from a JSON file."""
     try:
         with open(filename, 'r') as file:
             questions = json.load(file)
@@ -14,6 +15,7 @@ def load_questions(filename):
         return []
 
 def save_score(filename, score):
+    """Save the user's score to a file."""
     try:
         with open(filename, 'a') as file:
             file.write(f"Score: {score}\n")
@@ -21,9 +23,10 @@ def save_score(filename, score):
         print(f"Error: Could not write to file {filename}.")
 
 def ask_question(question):
+    """Ask a single question and return True if the answer is correct, False otherwise."""
     print(question['question'])
-    for i, option in enumerate(question['options'], 1):
-        print(f"{i}. {option}")
+    for option_index, option in enumerate(question['options'], 1):
+        print(f"{option_index}. {option}")
     while True:
         try:
             answer = int(input("Your answer (1-4): "))
@@ -40,6 +43,7 @@ def ask_question(question):
             print("Invalid input. Please enter a number between 1 and 4.")
 
 def main():
+    """Main function to run the quiz game."""
     questions = load_questions('questions.json')
     if not questions:
         return
