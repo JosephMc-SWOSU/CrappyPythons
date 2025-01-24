@@ -11,6 +11,12 @@ def calculate_total_price(base_price, additional_services, selected_services):
 
     return selected_services_output, total_price
 
+def display_services(additional_services):
+    print("Available additional services:")
+    for service, price in additional_services.items():
+        print(f"{service} - ${price}")
+    print("Enter '-' if no additional service is needed.")
+
 def primaryfunction():
     base_price = 10
     additional_services = {
@@ -19,6 +25,9 @@ def primaryfunction():
         'Rain repellent': 2,
         'Interior vacuum': 5
     }
+
+    # Display available services and prices
+    display_services(additional_services)
 
     # Input the selected services
     selected_services = []
