@@ -37,9 +37,11 @@ if __name__ == "__main__":
     course.add_student(Student('Brenda', 'Stern', 2.0))
     course.add_student(Student('Lynda', 'Robinson', 3.2))
     course.add_student(Student('Sonya', 'King', 3.9))
-    course.add_student(Student('Tina', 'Smith', 3.8))
-    course.add_student(Student('John', 'Doe', 3.6))
-    course.add_student(Student('Jane', 'Doe', 3.7))
+    course.add_student(Student('Tina', 'Smith', 2.8))
+    course.add_student(Student('John', 'Doe', 3.4))
+    course.add_student(Student('Jane', 'Doe', 3.2))
+    course.add_student(Student('David', 'Smith', 1.6))
+    
 
     deans_list = course.get_deans_list()
     print("Dean's list:")
