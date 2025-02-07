@@ -22,17 +22,10 @@ if __name__ == "__main__":
     forwardmiles = int(input("Enter the number of miles to drive forward: "))
     reversemiles = int(input("Enter the number of miles to drive in reverse: "))
 
-    # TODO: Create SimpleCar object
     car = SimpleCar()
-    # TODO: Drive input number of miles forward
     car.drive(forwardmiles)
-    # TODO: Honk the horn
     car.honk_horn()
-    # TODO: Report car status
     car.report()
-    # TODO: Drive input number of miles in reverse
     car.reverse(reversemiles)
-    # TODO: Honk the horn
     car.honk_horn()
-    # TODO: Report car status
     car.report()
