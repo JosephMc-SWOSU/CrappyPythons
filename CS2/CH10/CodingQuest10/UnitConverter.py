@@ -9,7 +9,8 @@ def convert_length(value, from_unit, to_unit):
         'mi': 1609.34,
         'yd': 0.9144,
         'ft': 0.3048,
-        'in': 0.0254
+        'in': 0.0254,
+        'shaun': 1.78
     }
     try:
         # Check if the provided units are supported
@@ -20,6 +21,7 @@ def convert_length(value, from_unit, to_unit):
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
+
 
 # Function to convert weight units
 def convert_weight(value, from_unit, to_unit):
@@ -41,32 +43,34 @@ def convert_weight(value, from_unit, to_unit):
         print(f"An error occurred: {e}")
         return None
 
+
 # Function to convert temperature units
 def convert_temperature(value, from_unit, to_unit):
     try:
         # Convert from Celsius to other units
         if from_unit == 'c':
             if to_unit == 'f':
-                return (value * 9/5) + 32
+                return (value * 9 / 5) + 32
             elif to_unit == 'k':
                 return value + 273.15
         # Convert from Fahrenheit to other units
         elif from_unit == 'f':
             if to_unit == 'c':
-                return (value - 32) * 5/9
+                return (value - 32) * 5 / 9
             elif to_unit == 'k':
-                return (value - 32) * 5/9 + 273.15
+                return (value - 32) * 5 / 9 + 273.15
         # Convert from Kelvin to other units
         elif from_unit == 'k':
             if to_unit == 'c':
                 return value - 273.15
             elif to_unit == 'f':
-                return (value - 273.15) * 9/5 + 32
+                return (value - 273.15) * 9 / 5 + 32
         # Raise an error if the provided units are unsupported
         raise ValueError("Unsupported unit type for temperature conversion.")
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
+
 
 # Main function to handle user input and perform conversions
 def main():
@@ -74,11 +78,13 @@ def main():
     try:
         # Prompt the user for input values
         value = float(input("Enter the value to convert: "))
-        from_unit = input("Enter the unit to convert from (e.g., m, km, cm, mm, mi, yd, ft, in, kg, g, mg, lb, oz, c, f, k): ").lower()
+        from_unit = input(
+            "Enter the unit to convert from (e.g., m, km, cm, mm, mi, yd, ft, in, kg, g, mg, lb, oz, c, f, k): "
+        ).lower()
         to_unit = input("Enter the unit to convert to: ").lower()
 
         # Determine the type of conversion based on the units
-        length_units = {'m', 'km', 'cm', 'mm', 'mi', 'yd', 'ft', 'in'}
+        length_units = {'m', 'km', 'cm', 'mm', 'mi', 'yd', 'ft', 'in', 'shaun'}
         weight_units = {'kg', 'g', 'mg', 'lb', 'oz'}
         temperature_units = {'c', 'f', 'k'}
 
@@ -100,6 +106,7 @@ def main():
         print(f"Invalid input: {e}")
     except Exception as e:
         print(f"An error occurred: {e}")
+
 
 if __name__ == "__main__":
     main()
