@@ -4,8 +4,8 @@ def draw_triangle(n, current=1):
     else:
         # Calculate the width of the base of the triangle
         width = n * 2 - 1
-        # Center the current row of '#' characters
-        print(('#' * (current * 2 - 1)).center(width))
+        # Center the current row of '#' characters and make it purple
+        print(f"\033[35m{('#' * (current * 2 - 1)).center(width)}\033[0m")
         draw_triangle(n, current + 1)
 
 
